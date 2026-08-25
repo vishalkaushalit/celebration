@@ -1,6 +1,6 @@
-
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,11 +29,12 @@
 <body>
   <header class="header_sec">
     <nav class="spotlight_header py-2 container">
-      <a href="/"><img src="/assets/images/spotlight.webp" alt="spotlight" /></a>
+      <a href="<?php echo $baseUrl; ?>"><img src="/assets/images/spotlight.webp"
+          alt="spotlight" /></a>
       <div class="d-flex gap-2 gap-md-3">
         <a href="https://webcelebration.codknox.com/my-bookings" title="booking"
-          class="spotlight_btn spotlight_btn_orange_outline spo"><img src="/assets/images/calendar-tick.webp"
-            alt="calendar-tick" />
+          class="spotlight_btn spotlight_btn_orange_outline spo"><img
+            src="/assets/images/calendar-tick.webp" alt="calendar-tick" />
           <p>My Bookings</p>
         </a>
         <a href="https://webcelebration.codknox.com" title="Login" class="spotlight_btn"><i class="bi bi-person"></i>
@@ -42,7 +43,9 @@
       </div>
     </nav>
     <hr class="m-0" />
-  </header>  <!-- Banner Section -->
+  </header>
+
+  <!-- Banner Section -->
   <section class="banner_spotlight padding_70">
     <div class="container">
       <div class="row g-4 mt-1 align-items-center">
@@ -192,7 +195,7 @@
       </div>
       <div class="row g-4 mt-1">
         <div class="col-sm-6 col-md-4">
-          <a href="https://webcelebration.codknox.com" target="_blank">
+          <a href="https://webcelebration.codknox.com/my-bookings" target="_blank">
             <div class="celebrate_wrapper">
               <div class="point_wrapper_circle_logo celebrate_wrapper_circle_logo">
                 <img src="/assets/images/birthday.svg" alt="Birthday" />
@@ -400,7 +403,8 @@
         <div class="row g-4">
           <div class="col-sm-12 col-md-6">
             <div class="footer_logo">
-              <a href="/"><img src="/assets/images/spotlight.webp" alt="spotlight" class="footer_img" /></a>
+              <a href="<?php echo $baseUrl; ?>"><img src="/assets/images/spotlight.webp"
+                  alt="spotlight" class="footer_img" /></a>
               <p class="paragraph_gray mt-3">
                 Making your special moments larger than life on the big
                 screen.
@@ -431,7 +435,7 @@
                   <a href="">Privacy Policy</a>
                 </li>
                 <li>
-                  <a href="">Terms &amp; Conditions</a>
+                  <a href="">Terms & Conditions</a>
                 </li>
                 <li>
                   <a href="">Refund Policy</a>
@@ -454,4 +458,5 @@
   </footer>
 
 </body>
+
 </html>
