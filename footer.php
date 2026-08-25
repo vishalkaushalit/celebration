@@ -5,7 +5,7 @@
         <div class="row g-4">
           <div class="col-sm-12 col-md-6">
             <div class="footer_logo">
-              <a href=""><img src="<?php echo $baseUrl; ?>/assets/images/spotlight.webp" alt="spotlight" class="footer_img" /></a>
+              <a href="<?php echo $baseUrl; ?>"><img src="<?php echo $baseUrl; ?>/assets/images/spotlight.webp" alt="spotlight" class="footer_img" /></a>
               <p class="paragraph_gray mt-3">
                 Making your special moments larger than life on the big
                 screen.

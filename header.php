@@ -32,7 +32,7 @@
 <body>
   <header class="header_sec">
     <nav class="spotlight_header py-2 container">
-      <a href=""><img src="<?php echo $baseUrl; ?>/assets/images/spotlight.webp" alt="spotlight" /></a>
+      <a href="<?php echo $baseUrl; ?>"><img src="<?php echo $baseUrl; ?>/assets/images/spotlight.webp" alt="spotlight" /></a>
       <div class="d-flex gap-2 gap-md-3">
         <a href="https://webcelebration.codknox.com/my-bookings" title="booking"
           class="spotlight_btn spotlight_btn_orange_outline spo"><img src="<?php echo $baseUrl; ?>/assets/images/calendar-tick.webp"
