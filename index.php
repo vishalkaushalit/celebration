@@ -1,48 +1,4 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link href="/css/style.css" rel="stylesheet" />
-  <link href="/css/responsive.css" rel="stylesheet" />
-
-  <script src="/js/script.js"></script>
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
-
-  <!-- Google Fonts -->
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
-  </style>
-
-  <!-- Bootstrap -->
-  <!-- Latest compiled and minified CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
-
-  <!-- Latest compiled JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-</head>
-
-<body>
-  <header class="header_sec">
-    <nav class="spotlight_header py-2 container">
-      <a href=""><img src="/images/spotlight.webp" alt="spotlight" /></a>
-      <div class="d-flex gap-2 gap-md-3">
-        <a href="https://webcelebration.codknox.com/my-bookings" title="booking"
-          class="spotlight_btn spotlight_btn_orange_outline spo"><img src="/images/calendar-tick.webp"
-            alt="calendar-tick" />
-          <p>My Bookings</p>
-        </a>
-        <a href="https://webcelebration.codknox.com" title="Login" class="spotlight_btn"><i class="bi bi-person"></i>
-          <p>Login</p>
-        </a>
-      </div>
-    </nav>
-    <hr class="m-0" />
-  </header>
+<?php include('header.php'); ?>
   <!-- Banner Section -->
   <section class="banner_spotlight padding_70">
     <div class="container">
@@ -50,7 +6,7 @@
         <div class="col-lg-5">
           <div class="banner_content">
             <a class="premium_cinema_btn">
-              <img src="/images/circle_star.svg" alt="spotlight" />
+              <img src="<?php echo $baseUrl; ?>/assets/images/circle_star.svg" alt="spotlight" />
               <span> Premium Cinema Celebrations </span>
             </a>
             <div class="info my-2">
@@ -66,7 +22,7 @@
                 Celebration <i class="bi bi-arrow-right p-2 ms-2"></i></a>
               <hr class="margin_70 d-none d-sm-block" />
               <div class="review_main_wrapper d-none d-sm-block">
-                <img src="/images/review.webp" alt="Review" />
+                <img src="<?php echo $baseUrl; ?>/assets/images/review.webp" alt="Review" />
                 <div class="review_rating_wrapper">
                   <div>
                     <i class="bi bi-star-fill"></i>
@@ -85,7 +41,7 @@
         </div>
         <div class="col-lg-6 offset-lg-1 d-none d-sm-block">
           <div class="banner_img">
-            <img src="/images/banner_img.webp" alt="Banner Img" class="img-fluid" />
+            <img src="<?php echo $baseUrl; ?>/assets/images/banner_img.webp" alt="Banner Img" class="img-fluid" />
           </div>
         </div>
       </div>
@@ -99,7 +55,7 @@
         <div class="col-6 col-lg-3">
           <div class="point_wrapper">
             <div class="point_wrapper_circle_logo">
-              <img src="/images/secure_payments.webp" alt="Secure Payments" />
+              <img src="<?php echo $baseUrl; ?>/assets/images/secure_payments.webp" alt="Secure Payments" />
             </div>
             <p>Secure Payments</p>
           </div>
@@ -107,7 +63,7 @@
         <div class="col-6 col-lg-3">
           <div class="point_wrapper">
             <div class="point_wrapper_circle_logo">
-              <img src="/images/quick_approval.webp" alt="Quick Approval" />
+              <img src="<?php echo $baseUrl; ?>/assets/images/quick_approval.webp" alt="Quick Approval" />
             </div>
             <p>Quick Approval</p>
           </div>
@@ -115,7 +71,7 @@
         <div class="col-6 col-lg-3">
           <div class="point_wrapper">
             <div class="point_wrapper_circle_logo">
-              <img src="/images/whatsapp_updates.webp" alt="Whatsapp Updates" />
+              <img src="<?php echo $baseUrl; ?>/assets/images/whatsapp_updates.webp" alt="Whatsapp Updates" />
             </div>
             <p>WhatsApp Updates</p>
           </div>
@@ -123,7 +79,7 @@
         <div class="col-6 col-lg-3">
           <div class="point_wrapper">
             <div class="point_wrapper_circle_logo">
-              <img src="/images/partner_cinemas.webp" alt="Partner Cinemas" />
+              <img src="<?php echo $baseUrl; ?>/assets/images/partner_cinemas.webp" alt="Partner Cinemas" />
             </div>
             <p>Partner Cinemas</p>
           </div>
@@ -196,7 +152,7 @@
           <a href="https://webcelebration.codknox.com/my-bookings" target="_blank">
             <div class="celebrate_wrapper">
               <div class="point_wrapper_circle_logo celebrate_wrapper_circle_logo">
-                <img src="/images/birthday.svg" alt="Birthday" />
+                <img src="<?php echo $baseUrl; ?>/assets/images/birthday.svg" alt="Birthday" />
               </div>
               <h3 class="my-2">Birthday</h3>
               <p class="paragraph_gray">
@@ -209,7 +165,7 @@
           <a href="https://webcelebration.codknox.com/my-bookings" target="_blank">
             <div class="celebrate_wrapper">
               <div class="point_wrapper_circle_logo celebrate_wrapper_circle_logo">
-                <img src="/images/heart.svg" alt="Proposal" />
+                <img src="<?php echo $baseUrl; ?>/assets/images/heart.svg" alt="Proposal" />
               </div>
               <h3 class="my-2">Anniversary</h3>
               <p class="paragraph_gray">
@@ -222,7 +178,7 @@
           <a href="https://webcelebration.codknox.com/my-bookings" target="_blank">
             <div class="celebrate_wrapper">
               <div class="point_wrapper_circle_logo celebrate_wrapper_circle_logo">
-                <img src="/images/heart.svg" alt="Proposal" />
+                <img src="<?php echo $baseUrl; ?>/assets/images/heart.svg" alt="Proposal" />
               </div>
               <h3 class="my-2">Proposal</h3>
               <p class="paragraph_gray">
@@ -235,7 +191,7 @@
           <a href="https://webcelebration.codknox.com/my-bookings" target="_blank">
             <div class="celebrate_wrapper">
               <div class="point_wrapper_circle_logo celebrate_wrapper_circle_logo">
-                <img src="/images/graduation.svg" alt="Proposal" />
+                <img src="<?php echo $baseUrl; ?>/assets/images/graduation.svg" alt="Proposal" />
               </div>
               <h3 class="my-2">Graduation</h3>
               <p class="paragraph_gray">Honor their achievements grandly.</p>
@@ -246,7 +202,7 @@
           <a href="https://webcelebration.codknox.com/my-bookings" target="_blank">
             <div class="celebrate_wrapper">
               <div class="point_wrapper_circle_logo celebrate_wrapper_circle_logo">
-                <img src="/images/baby.svg" alt="Graduation" />
+                <img src="<?php echo $baseUrl; ?>/assets/images/baby.svg" alt="Graduation" />
               </div>
               <h3 class="my-2">Baby Announcement</h3>
               <p class="paragraph_gray">
@@ -259,7 +215,7 @@
           <a href="https://webcelebration.codknox.com/my-bookings" target="_blank">
             <div class="celebrate_wrapper">
               <div class="point_wrapper_circle_logo celebrate_wrapper_circle_logo">
-                <img src="/images/brand.svg" alt="Proposal" />
+                <img src="<?php echo $baseUrl; ?>/assets/images/brand.svg" alt="Proposal" />
               </div>
               <h3 class="my-2">Brand/Corporate</h3>
               <p class="paragraph_gray">Promote your brand effectively.</p>
@@ -278,7 +234,7 @@
           <div class="col-md-9">
             <div class="info premium_service_info my-2">
               <a href="" class="spotlight_btn premium_service_btn">
-                <img src="/images/brush.svg" alt="Brush" class="img-fluid me-1" />
+                <img src="<?php echo $baseUrl; ?>/assets/images/brush.svg" alt="Brush" class="img-fluid me-1" />
                 Premium Service
               </a>
               <h2 class="heading_spotlight_h2 my-2">
@@ -303,6 +259,7 @@
       </div>
     </div>
   </section>
+
   <!-- Counter Section -->
   <section class="counter_sec padding_70 pt-0">
     <div class="container">
@@ -350,6 +307,7 @@
       </div>
     </div>
   </section>
+
   <!-- Ready to Make Section -->
   <section class="ready_to_make_sec">
     <div class="container">
@@ -368,10 +326,11 @@
     </div>
   </section>
 
+  <!-- Rating Section -->
   <section class="rating_sec">
     <div class="container">
       <div class="review_main_wrapper pb-4 padding_70">
-        <img src="/images/review.webp" alt="Review">
+        <img src="<?php echo $baseUrl; ?>/assets/images/review.webp" alt="Review">
         <div class="review_rating_wrapper">
           <div>
             <i class="bi bi-star-fill"></i>
@@ -386,70 +345,9 @@
         </div>
       </div>
       <div class="banner_img">
-        <img src="/images/banner_img.webp" alt="Banner Img" class="img-fluid">
+        <img src="<?php echo $baseUrl; ?>/assets/images/banner_img.webp" alt="Banner Img" class="img-fluid">
       </div>
     </div>
   </section>
 
-  <!-- Footer Section -->
-  <footer class="footer_sec">
-    <div class="container">
-      <div class="footer_main_wrapper pt-5">
-        <div class="row g-4">
-          <div class="col-sm-12 col-md-6">
-            <div class="footer_logo">
-              <a href=""><img src="/images/spotlight.webp" alt="spotlight" class="footer_img" /></a>
-              <p class="paragraph_gray mt-3">
-                Making your special moments larger than life on the big
-                screen.
-              </p>
-            </div>
-          </div>
-          <div class="col-6 col-md-3">
-            <div class="company_footer">
-              <h3 class="mb-3">COMPANY</h3>
-              <ul>
-                <li>
-                  <a href="">Help Center</a>
-                </li>
-                <li>
-                  <a href="">Contact Us</a>
-                </li>
-                <li>
-                  <a href="">Cancellation Policy</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-6 col-md-3">
-            <div class="company_footer">
-              <h3 class="mb-3">LEGAL</h3>
-              <ul>
-                <li>
-                  <a href="">Privacy Policy</a>
-                </li>
-                <li>
-                  <a href="">Terms & Conditions</a>
-                </li>
-                <li>
-                  <a href="">Refund Policy</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="copyright py-3">
-          <div class="row g-2">
-            <div class="col-md-12">
-              <p class="cpy_txt text-center paragraph_gray">
-                © 2024 SpotX Celebrations. All rights reserved.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-</body>
-
-</html>
+  <?php include('footer.php'); ?>
